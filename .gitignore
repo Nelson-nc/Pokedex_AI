@@ -1,0 +1,8 @@
+.env
+env
+.venv
+venv
+*.txt
+__pycache__
+*.cpython-312.pyc
+*.pyc
