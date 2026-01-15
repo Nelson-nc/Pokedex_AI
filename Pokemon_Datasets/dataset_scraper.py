@@ -32,13 +32,14 @@ def get_dataset(query):
                                 continue
 
                         urlretrieve(str(src[i]), f"Pokemon_Datasets/datasets/{query}/{query}_({i})_.{ext}")
-                        print(f"Saved: Pokemon_Datasets/datasets/{query}/{query}_({i})_.{ext}")
+                        # print(f"Saved: Pokemon_Datasets/datasets/{query}/{query}_({i})_.{ext}")
 
                         count += 1
                         time.sleep(random.uniform(1, 3))
                         
-                        if count >= 60:
+                        if count >= 120:
                                 break
+                print("Done")
 
         except Exception as e:
                 print("Error: ", e)
