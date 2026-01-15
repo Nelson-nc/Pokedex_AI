@@ -57,6 +57,7 @@ pip install opencv_python
 - update the dataset_scraper.py to add one of each image to res/photos
 
 ## How to contribute
-- clone with git in a different branch "this repo url"
+- fork and clone repository
+- create new branch -> git checkout -b branch_name
 - make changes and test
-- submit pull request with description of what you did.
+- push and submit a pull request with a good description.
